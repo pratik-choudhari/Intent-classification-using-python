@@ -1,0 +1,58 @@
+.text-white {
+    background-color: #1A1A1D;
+}
+
+.big-text {
+    font-size: 400%;
+    font-weight: 200;
+}
+
+.med-text {
+    font-size: 200%;
+    font-weight: 150;
+}
+
+.margin {
+    margin-top: 2.5em;
+}
+
+body {
+    margin: 0;
+    height: auto;
+}
+
+.icon-bar {
+    position: fixed;
+    top: 30%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 20px;
+}
+
+.icon-bar a:hover {
+    background-color: #000;
+}
+
+.linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.github {
+    background: #000000;
+    color: white;
+}
+
+.content {
+    margin-left: 75px;
+    font-size: 30px;
+}
