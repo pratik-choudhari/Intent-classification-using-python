@@ -5,9 +5,9 @@ Resources at bottom👇🏻
 ### Context:<br>
 Intents define an event in virtual assistant systems such as voice assistants, chatbots, etc.<br>
 The dataset used available <a href='https://www.kaggle.com/stefanlarson/outofscope-intent-classification-dataset'>here</a>,
-includes collections of json file consisting of train and test data, which in turn has 2 columns:
-- the command a user gives
-- and corrsponding intent<br> 
+includes collection of json files consisting of train, val and test data. Training data has 2 columns:
+- command from user
+- corrsponding intent<br> 
 
 In total there are 151 intents including a special intent aka oos(out-of-scope) intent, it is difficult for chatbots to differentiate between an in scope intent from an out of scope intent. 
 ### Deployment:<br>
