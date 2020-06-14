@@ -1,0 +1,42 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Intent Classification
+    </title>
+    <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+</head>
+
+<body class='text-white'>
+    <div class="icon-bar">
+        <a href="https://www.linkedin.com/in/pratik-choudhari/" class="linkedin"><i class="fa fa-linkedin"></i></a>
+        <a href="https://github.com/pratik-choudhari" class="github"><i class="fa fa-github"></i></a>
+    </div>
+    <div class='container'>
+        <div class='margin'><span class="big-text" style="color:#c3073f">Welcome!</span></div>
+
+        <div><span class='med-text' style='color:#ffcb9a;'>This is a demo of an Intent classification Machine Learning model build in Python.</span></div>
+        <form action="{{ url_for('results') }}" method="POST" class='margin'>
+            <div class="form-group">
+                <label for="command" style="font-size: 150%;">Enter a command:</label>
+                <textarea name='command' type="text" placeholder='Just like you are talking to a virtual assistant e.g. Call jake or set a reminder for cooking classes at 4 pm tomorrow' class="form-control"></textarea>
+            </div>
+            <button type="submit" style='background-color:#950740;' class="text-white btn btn-default">Submit</button>
+        </form>
+    </div>
+    </div>
+</body>
+
+</html>
